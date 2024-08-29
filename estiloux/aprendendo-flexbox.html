@@ -9,7 +9,11 @@
         section {
             display: flex;
             justify-content: flex-start;
-        
+            flex-direction: row; 
+
+            /* Quebra de coluna */
+            flex-wrap: wrap;
+            align-items: stretch;
             width: 700px;
             height: 500px;
             margin-left: auto;
@@ -18,6 +22,7 @@
         }
 
         article {
+
             width: 100px;
             height: 100px;
             margin-bottom: 10px;
@@ -29,10 +34,20 @@
 </head>
 <body>
     
+    <!-- container - flex -->
     <section>
-        <article></article>
-        <article></article>
-        <article></article>
+        <!-- itens do flex -->
+        <article>Item 1</article>
+        <article>Item 2</article>
+        <article>Item 3</article>
+        <article>Item 4</article>
+        <article>Item 5</article>
+        <article>Item 6</article>
+        <article>Item 7</article>
+        <article>Item 8</article>
+        <article>Item 9</article>
+        <article>Item 10</article>
+
     </section>
 
 </body>
